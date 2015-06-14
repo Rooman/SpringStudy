@@ -1,4 +1,4 @@
-package lab1.solution;
+package lab2.practice;
 
 
 public interface Printer {

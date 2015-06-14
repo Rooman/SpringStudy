@@ -1,4 +1,4 @@
-package lab1.solution;
+package lab1.example;
 
 
 import java.util.HashMap;

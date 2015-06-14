@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="printer1" class="lab2.example.MessagePrinter">
+        <property name="message" value="user"/>
+    </bean>
+
+    <bean id="printer2" class="lab2.example.MessagePrinter">
+        <property name="message" value="password"/>
+    </bean>
+
+    <bean id="printer3" class="lab2.example.MessagePrinter">
+        <property name="message" value="url"/>
+    </bean>
+
+</beans>

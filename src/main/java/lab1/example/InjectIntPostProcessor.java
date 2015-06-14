@@ -1,4 +1,4 @@
-package lab1.solution;
+package lab1.example;
 
 
 import org.springframework.beans.BeansException;
