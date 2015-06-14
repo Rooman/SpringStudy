@@ -5,15 +5,15 @@
 	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="printer1" class="lab2.example.MessagePrinter">
+    <bean id="printer1" class="lab2.practice.MessagePrinter">
         <property name="message" value="user"/>
     </bean>
 
-    <bean id="printer2" class="lab2.example.MessagePrinter">
+    <bean id="printer2" class="lab2.practice.MessagePrinter">
         <property name="message" value="password"/>
     </bean>
 
-    <bean id="printer3" class="lab2.example.MessagePrinter">
+    <bean id="printer3" class="lab2.practice.MessagePrinter">
         <property name="message" value="url"/>
     </bean>
 
