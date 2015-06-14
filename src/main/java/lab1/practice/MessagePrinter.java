@@ -1,10 +1,11 @@
-package lab1.solution;
+package lab1.practice;
 
 
 public class MessagePrinter implements Printer {
     private String message;
 
-    @InjectInt("printerCount")
+    // создать аннотацию и аннотировать поле так, что бы при поднятии контекста
+    // в поле инжектилось случайное число от 0 до числа заданого при помощи аннотации
     private int count;
 
     public void print() {
