@@ -22,9 +22,7 @@ https://www.youtube.com/watch?v=-_aWK8T_YMI (Spring Framework on Java 8)
     используя класс PropertyRepository
 Усложнения:
     1) Используем внешний проперти файл вместо PropertyRepository
-    2) Используем объект properties, который объявляем бином(util:prop), достаем проперти не из статических переменных
-       или файлов, а из бина.
-
+    
 3) Рассчитана на ознакомление с классом BeanPostProcessor и, непосредственно, методом postProcessAfterInitialization.
 Практика:
 Самостоятельно реализовать механизм логгирования через прокси, используя пример.
