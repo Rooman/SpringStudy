@@ -10,6 +10,7 @@ import java.lang.reflect.Field;
 public class InjectIntPostProcessor implements BeanPostProcessor {
 
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+
         Class clazz = bean.getClass();
         for (Field field : clazz.getDeclaredFields()) {
             InjectInt annotation = field.getDeclaredAnnotation(InjectInt.class);
@@ -23,6 +24,7 @@ public class InjectIntPostProcessor implements BeanPostProcessor {
     }
 
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+
         return bean;
     }
 }

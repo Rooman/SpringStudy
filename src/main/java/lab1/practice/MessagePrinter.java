@@ -2,6 +2,7 @@ package lab1.practice;
 
 
 public class MessagePrinter implements Printer {
+
     private String message;
 
     // создать аннотацию и аннотировать поле так, что бы при поднятии контекста
@@ -15,6 +16,7 @@ public class MessagePrinter implements Printer {
     }
 
     public void setMessage(String message) {
+
         this.message = message;
     }
 }
