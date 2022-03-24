@@ -7,6 +7,6 @@
         <property name="message" value="Hello world"/>
     </bean>
 
-    <bean class="lab1.practice.InjectRandomIntPostProcessor"/>
+    <bean class="lab1.practice.InjectRandomPostProcessor"/>
 
 </beans>

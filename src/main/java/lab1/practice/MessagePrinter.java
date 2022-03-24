@@ -1,8 +1,5 @@
 package lab1.practice;
 
-
-import org.springframework.beans.factory.annotation.Value;
-
 public class MessagePrinter implements Printer {
 
     private String message;

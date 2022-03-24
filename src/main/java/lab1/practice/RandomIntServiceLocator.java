@@ -1,6 +1,5 @@
 package lab1.practice;
 
-
 import java.util.HashMap;
 import java.util.Map;
 

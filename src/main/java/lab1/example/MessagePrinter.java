@@ -9,6 +9,7 @@ public class MessagePrinter implements Printer {
     private int count;
 
     public void print() {
+
         for (int i = 0; i < count; i++) {
             System.out.println(message);
         }
