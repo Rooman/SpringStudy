@@ -2,6 +2,7 @@ package lab1.example;
 
 
 public class MessagePrinter implements Printer {
+
     private String message;
 
     @InjectInt("printerCount")
@@ -14,6 +15,7 @@ public class MessagePrinter implements Printer {
     }
 
     public void setMessage(String message) {
+
         this.message = message;
     }
 }

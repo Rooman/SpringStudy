@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class IntServiceLocator {
+
     private final static Map<String, Integer> map = new HashMap<String, Integer>() {
         {
             put("printerCount", 5);
